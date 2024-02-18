@@ -2,6 +2,8 @@
 
 A Vue 3 example of how to use route guards to redirect users to the login page if they are not authenticated. This example uses Vue Router and Pinia for state management.
 
+![alt text](./banner.png)
+
 ## Run the project locally
 
 > This project uses Node 18+ <br />
