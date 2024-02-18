@@ -10,9 +10,15 @@ import { ref } from 'vue';
  */
 export const useAuthStore = defineStore('auth', () => {
 
-  const isAuthenticated = useStorage('auth', false);
-  const user = ref(null);
   const loading = ref(false);
+
+  /**
+   * The useStorage function is only here to serve as an
+   * example for maintaining auth state when refreshing
+   * the browser. You will notice an "auth" key in
+   * your localStorage settings.
+   */
+  const isAuthenticated = useStorage('auth', false);
 
   async function login() {
     try {
