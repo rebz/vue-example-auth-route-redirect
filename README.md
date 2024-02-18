@@ -4,7 +4,9 @@ A Vue 3 example of how to use route guards to redirect users to the login page i
 
 ## Run the project locally
 
-> This project uses Node 18+
+> This project uses Node 18+ <br />
+> [Created using Vite and the Vue 3 template.](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+
 
 1. Clone or download the repo to your local machine
 1. Navigate to the project root using your terminal
