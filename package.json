@@ -1,0 +1,27 @@
+{
+  "name": "vue-example-auth-route-redirect",
+  "description": "A Vue 3 example of how to use route guards to redirect users to the login page if they are not authenticated. This example uses Vue Router and Pinia for state management.",
+  "website": "https://rebz.me",
+  "author": {
+    "name": "Chris Johnson",
+    "email": "chris@rebzmedia.com"
+  },
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.7.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0"
+  }
+}
